@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="tr">
+      <helpMenu>MENÜ</helpMenu>
+      <helpSelect>SEÇ</helpSelect>
+      <aspectRatioLabel>En Boy Oranı</aspectRatioLabel>
+      <wallpaperLabel>Duvar Kağıdı</wallpaperLabel>
+      <videoLabel>Arka Plan Videosu</videoLabel>
+      <enabledLabel>Etkin</enabledLabel>
+      <disabledLabel>Devre Dışı</disabledLabel>
+      <colorSchemeLabel>Renk Şeması</colorSchemeLabel>
+      <darkLabel>Koyu</darkLabel>
+      <lightLabel>Açık</lightLabel>
+      <buttonIconsLabel>Düğme Simgeleri</buttonIconsLabel>
+      <confirmButtonLabel>Onay Düğmesi (A/B)</confirmButtonLabel>
+      <footerLabel>Düğme Açıklaması</footerLabel>
+   </variables>
+</theme>

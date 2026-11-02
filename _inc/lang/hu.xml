@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="hu">
+      <helpMenu>MENÜ</helpMenu>
+      <helpSelect>KIVÁLASZT</helpSelect>
+      <aspectRatioLabel>Képarány</aspectRatioLabel>
+      <wallpaperLabel>Háttérkép</wallpaperLabel>
+      <videoLabel>Háttér videó</videoLabel>
+      <enabledLabel>Engedélyezve</enabledLabel>
+      <disabledLabel>Letiltva</disabledLabel>
+      <colorSchemeLabel>Színséma</colorSchemeLabel>
+      <darkLabel>Sötét</darkLabel>
+      <lightLabel>Világos</lightLabel>
+      <buttonIconsLabel>Gombikonok</buttonIconsLabel>
+      <confirmButtonLabel>Megerősítő gomb (A/B)</confirmButtonLabel>
+      <footerLabel>Gombjelmagyarázat</footerLabel>
+   </variables>
+</theme>

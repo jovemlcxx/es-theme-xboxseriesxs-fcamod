@@ -1,0 +1,487 @@
+<theme defaultView="grid">
+   <formatVersion>7</formatVersion>
+   <!-- Xbox Series X|S home for the R36S and clones: a theme for EmulationStation-fcamod made from scratch, same resources as the PS5 and XMB themes
+        (wallpapers, background video, 26 languages, ArkOS family, button legend). Layout: a big selected tile on the left, the next ones in a row,
+        four info tiles under them. -->
+   <variables>
+      <fontLight>./_inc/fonts/NotoSans-Regular.ttf</fontLight>
+      <fontMedium>./_inc/fonts/NotoSans-Bold.ttf</fontMedium>
+      <iconsPath>./_inc/systems/icons</iconsPath>
+      <logosPath>./_inc/systems/marquees</logosPath>
+      <emblemsPath>./_inc/systems/logos</emblemsPath>
+      <white>ffffff</white>
+      <plateColor>23272bf2</plateColor>
+      <profileName>jovemlcxx</profileName>
+      <profileScore>18294</profileScore>
+      <aspectRatioLabel>Aspect Ratio</aspectRatioLabel>
+      <videoLabel>Background Video</videoLabel>
+      <enabledLabel>Enabled</enabledLabel>
+      <disabledLabel>Disabled</disabledLabel>
+      <wallpaperLabel>Wallpaper</wallpaperLabel>
+      <colorSchemeLabel>Color Scheme</colorSchemeLabel>
+      <darkLabel>Dark</darkLabel>
+      <lightLabel>Light</lightLabel>
+      <buttonIconsLabel>Button Icons</buttonIconsLabel>
+      <confirmButtonLabel>Confirm Button (A/B)</confirmButtonLabel>
+      <footerLabel>Button Legend</footerLabel>
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>SELECT</helpSelect>
+      <buttonStyle>nintendo</buttonStyle>
+      <confirmButton>a</confirmButton>
+      <wallpaperPath>./_inc/background/bg_1.png</wallpaperPath>
+      <wallpaperVideoPath>./_inc/background/bg_1.mp4</wallpaperVideoPath>
+      <systemBackgroundTint>CCCCCCFF</systemBackgroundTint>
+      <backgroundOverlayColor>0000008C</backgroundOverlayColor>
+      <menuBackgroundColor>111111EE</menuBackgroundColor>
+      <menuTextColor>ffffffAA</menuTextColor>
+      <menuTextSelectedColor>ffffff</menuTextSelectedColor>
+      <menuSeparatorColor>ffffff1A</menuSeparatorColor>
+      <helpTextColor>ffffff66</helpTextColor>
+      <helpIconColor>ffffff66</helpIconColor>
+      <menuTextInputImage>./_inc/images/menu-textinput-dark.png</menuTextInputImage>
+      <menuTextInputImageActive>./_inc/images/menu-textinput-dark-active.png</menuTextInputImageActive>
+   </variables>
+   <!-- Translations: one file per language, included only for that language (ES-fcamod stops reading <variables> blocks at the first
+        one whose lang does not match, so they cannot all live in this file). They must come before the subsets, whose names use them. -->
+   <include lang="pt,br">./_inc/lang/br.xml</include>
+   <include lang="es">./_inc/lang/es.xml</include>
+   <include lang="fr">./_inc/lang/fr.xml</include>
+   <include lang="de">./_inc/lang/de.xml</include>
+   <include lang="it">./_inc/lang/it.xml</include>
+   <include lang="ja">./_inc/lang/ja.xml</include>
+   <include lang="ko">./_inc/lang/ko.xml</include>
+   <include lang="ru">./_inc/lang/ru.xml</include>
+   <include lang="zh-cn,zh">./_inc/lang/zh-cn.xml</include>
+   <include lang="zh-tw">./_inc/lang/zh-tw.xml</include>
+   <include lang="tr">./_inc/lang/tr.xml</include>
+   <include lang="nl">./_inc/lang/nl.xml</include>
+   <include lang="sv">./_inc/lang/sv.xml</include>
+   <include lang="pl">./_inc/lang/pl.xml</include>
+   <include lang="ca">./_inc/lang/ca.xml</include>
+   <include lang="da">./_inc/lang/da.xml</include>
+   <include lang="fi">./_inc/lang/fi.xml</include>
+   <include lang="hu">./_inc/lang/hu.xml</include>
+   <include lang="no,nb">./_inc/lang/no.xml</include>
+   <include lang="ro">./_inc/lang/ro.xml</include>
+   <include lang="uk,ua">./_inc/lang/uk.xml</include>
+   <include lang="cs">./_inc/lang/cs.xml</include>
+   <include lang="el">./_inc/lang/el.xml</include>
+   <include lang="vi">./_inc/lang/vi.xml</include>
+   <include lang="pt">./_inc/lang/pt.xml</include>
+   <include lang="id">./_inc/lang/id.xml</include>
+   <subset name="aspect-ratio" displayName="${aspectRatioLabel}">
+      <include name="4-3" displayName="4:3" />
+   </subset>
+
+   <subset name="wallpaper" displayName="${wallpaperLabel}">
+      <include name="1" displayName="1 (default)">./_inc/wallpapers/1.xml</include>
+      <include name="2" displayName="2">./_inc/wallpapers/2.xml</include>
+      <include name="3" displayName="3">./_inc/wallpapers/3.xml</include>
+      <include name="4" displayName="4">./_inc/wallpapers/4.xml</include>
+      <include name="5" displayName="5">./_inc/wallpapers/5.xml</include>
+      <include name="6" displayName="6">./_inc/wallpapers/6.xml</include>
+      <include name="7" displayName="7">./_inc/wallpapers/7.xml</include>
+      <include name="8" displayName="8">./_inc/wallpapers/8.xml</include>
+      <include name="9" displayName="9">./_inc/wallpapers/9.xml</include>
+      <include name="10" displayName="10">./_inc/wallpapers/10.xml</include>
+      <include name="11" displayName="11">./_inc/wallpapers/11.xml</include>
+      <include name="12" displayName="12">./_inc/wallpapers/12.xml</include>
+      <include name="13" displayName="13">./_inc/wallpapers/13.xml</include>
+      <include name="14" displayName="14">./_inc/wallpapers/14.xml</include>
+      <include name="15" displayName="15">./_inc/wallpapers/15.xml</include>
+      <include name="16" displayName="16">./_inc/wallpapers/16.xml</include>
+      <include name="17" displayName="17">./_inc/wallpapers/17.xml</include>
+      <include name="18" displayName="18">./_inc/wallpapers/18.xml</include>
+      <include name="19" displayName="19">./_inc/wallpapers/19.xml</include>
+      <include name="20" displayName="20">./_inc/wallpapers/20.xml</include>
+   </subset>
+   <subset name="color-scheme" displayName="${colorSchemeLabel}">
+      <include name="dark" displayName="${darkLabel}">./_inc/colors/dark.xml</include>
+      <include name="light" displayName="${lightLabel}">./_inc/colors/light.xml</include>
+   </subset>
+   <!-- Background video on/off. The elements live only in video-enabled.xml (see video-disabled.xml). -->
+   <subset name="background-video" displayName="${videoLabel}">
+      <include name="enabled" displayName="${enabledLabel}">./_inc/video-enabled.xml</include>
+      <include name="disabled" displayName="${disabledLabel}">./_inc/video-disabled.xml</include>
+   </subset>
+
+   <!-- Footer button icons (the XMB theme's): paths are built from two plain variables, ES-fcamod does not resolve a variable inside another.
+        The subset has this theme's own name: with the shared one, the "PlayStation" chosen in the PS5 / XMB themes would also be applied here. -->
+   <subset name="xbox-buttons" displayName="${buttonIconsLabel}">
+      <include name="nintendo" displayName="Nintendo / Xbox" />
+      <include name="playstation" displayName="PlayStation">./_inc/buttons/playstation.xml</include>
+   </subset>
+   <!-- The footer is hand-made (the native one does not fit the screen), so the confirm button has to be set by hand when A/B is swapped -->
+   <subset name="confirm-button" displayName="${confirmButtonLabel}">
+      <include name="a" displayName="A" />
+      <include name="b" displayName="B">./_inc/buttons/confirm-b.xml</include>
+   </subset>
+   <!-- Button legend at the bottom: ON by default (first entry), the user can turn it off.
+        It must stay AFTER the button-icons / confirm-button subsets: ES resolves ${buttonStyle} / ${confirmButton} while reading this file. -->
+   <subset name="footer" displayName="${footerLabel}">
+      <include name="enabled" displayName="${enabledLabel}">./_inc/footer-enabled.xml</include>
+      <include name="disabled" displayName="${disabledLabel}">./_inc/footer-disabled.xml</include>
+   </subset>
+
+   <!-- navigation sounds (the Xbox navigation tick, tools/extract-xbox-sounds.py) -->
+   <view name="system, grid, menu">
+      <sound name="select">
+         <path>./_inc/sounds/select.wav</path>
+      </sound>
+      <sound name="back">
+         <path>./_inc/sounds/back.wav</path>
+      </sound>
+      <sound name="favorite">
+         <path>./_inc/sounds/favorite.wav</path>
+      </sound>
+      <sound name="systembrowse">
+         <path>./_inc/sounds/systembrowse.wav</path>
+      </sound>
+      <sound name="scroll">
+         <path>./_inc/sounds/scroll.wav</path>
+      </sound>
+      <sound name="quicksysselect">
+         <path>./_inc/sounds/quicksysselect.wav</path>
+      </sound>
+      <sound name="launch">
+         <path>./_inc/sounds/launch.wav</path>
+      </sound>
+   </view>
+
+   <!-- clock, top right (the status icons are drawn by ES itself, top left) -->
+   <view name="screen">
+      <batteryIndicator name="batteryIndicator">
+         <color>${white}</color>
+      </batteryIndicator>
+      <text name="clock">
+         <fontPath>${fontLight}</fontPath>
+         <color>${white}</color>
+         <alignment>right</alignment>
+      </text>
+   </view>
+
+   <!-- native help legend hidden (it does not fit the screen in most languages); the footer below is hand-made like the XMB theme's -->
+   <view name="system, grid">
+      <helpsystem name="help">
+         <textColor>00000000</textColor>
+         <iconColor>00000000</iconColor>
+      </helpsystem>
+   </view>
+
+   <!-- some forks draw the system logo / name as a header on the game list: keep them off screen -->
+   <view name="grid">
+      <image name="logo">
+         <pos>2 2</pos>
+      </image>
+      <text name="logoText">
+         <pos>2 2</pos>
+      </text>
+   </view>
+
+   <!-- menu: same sizes and light / dark colours as the XMB theme -->
+   <view name="menu">
+      <menuText name="menutitle">
+         <fontPath>${fontMedium}</fontPath>
+         <fontSize>0.03</fontSize>
+         <color>${menuTextSelectedColor}</color>
+      </menuText>
+      <menuText name="menufooter">
+         <fontPath>${fontLight}</fontPath>
+         <fontSize>0.02</fontSize>
+         <color>${menuTextColor}</color>
+      </menuText>
+      <menuText name="menutext">
+         <fontPath>${fontMedium}</fontPath>
+         <fontSize>0.03</fontSize>
+         <color>${menuTextColor}</color>
+         <separatorColor>${menuSeparatorColor}</separatorColor>
+         <selectedColor>${menuTextSelectedColor}</selectedColor>
+      </menuText>
+      <menuTextSmall name="menutextsmall">
+         <fontPath>${fontLight}</fontPath>
+         <fontSize>0.02</fontSize>
+         <color>${menuTextColor}</color>
+      </menuTextSmall>
+      <menuBackground name="menubg">
+         <color>${menuBackgroundColor}</color>
+      </menuBackground>
+      <menuTextEdit name="menutextedit">
+         <inactive>${menuTextInputImage}</inactive>
+         <active>${menuTextInputImageActive}</active>
+      </menuTextEdit>
+   </view>
+
+   <!-- shared by both screens: top bar, the bottom dimming and the four plates of the bottom row -->
+   <view name="system, grid">
+      <image name="e_avatar" extra="true">
+         <path>./_inc/images/avatar.png</path>
+         <zIndex>60</zIndex>
+      </image>
+      <!-- the profile, as on the Xbox home: photo (the Xbox logo), name, ULTIMATE badge, and the gamerscore with its G; name and score are the variables at the top -->
+      <text name="e_profile_name" extra="true">
+         <text>${profileName}</text>
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>60</zIndex>
+      </text>
+      <image name="e_profile_badge" extra="true">
+         <path>./_inc/images/badge-ultimate.png</path>
+         <zIndex>60</zIndex>
+      </image>
+      <image name="e_profile_g" extra="true">
+         <path>./_inc/images/icon-gscore.png</path>
+         <zIndex>60</zIndex>
+      </image>
+      <text name="e_profile_score" extra="true">
+         <text>${profileScore}</text>
+         <fontPath>${fontLight}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>60</zIndex>
+      </text>
+      <image name="e_ic_library" extra="true">
+         <path>./_inc/images/icon-library.png</path>
+         <zIndex>60</zIndex>
+      </image>
+      <image name="e_ic_apps" extra="true">
+         <path>./_inc/images/icon-apps.png</path>
+         <zIndex>60</zIndex>
+      </image>
+      <image name="e_ic_search" extra="true">
+         <path>./_inc/images/icon-search.png</path>
+         <zIndex>60</zIndex>
+      </image>
+      <image name="e_ic_settings" extra="true">
+         <path>./_inc/images/icon-settings.png</path>
+         <zIndex>60</zIndex>
+      </image>
+      <image name="e_dim" extra="true">
+         <path>./_inc/images/overlay-dim.png</path>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>6</zIndex>
+      </image>
+      <image name="e_t1_plate" extra="true">
+         <path>./_inc/images/plate-teal.png</path>
+         <zIndex>42</zIndex>
+      </image>
+      <image name="e_t2_plate" extra="true">
+         <path>./_inc/images/plate-dark.png</path>
+         <zIndex>42</zIndex>
+      </image>
+      <image name="e_t3_plate" extra="true">
+         <path>./_inc/images/plate-green.png</path>
+         <zIndex>42</zIndex>
+      </image>
+      <image name="e_t4_plate" extra="true">
+         <path>./_inc/images/plate-dark.png</path>
+         <zIndex>42</zIndex>
+      </image>
+   </view>
+
+   <view name="system">
+      <!-- No staticBackground: ES draws it AFTER every extra below the carousel, which would hide the bottom dimming. The wallpaper is a low-z extra instead
+           (the same trick as the Steam Deck theme's system view). -->
+      <image name="bg_image" extra="true">
+         <path>${wallpaperPath}</path>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${systemBackgroundTint}</color>
+         <zIndex>0</zIndex>
+      </image>
+      <!-- The tiles of the row are the carousel's own items, and the selected one EXPANDS (logoScale), like the PS5 theme's carousel, growing to both sides and
+           UP from a fixed bottom edge, as on the Xbox (the PS5 theme's grows down). The selected system is the first of the row (logoPos puts it at the left edge of the box; the items before it fall
+           outside the box and are cut). The pitch is wide enough for the zoomed tile not to cover its neighbour (see aspect-ratio-4-3.xml).
+           fcamod draws the unselected ones at 50%; unselectedOpacity (read by the Steam Deck UI Fixes ES build and by Batocera / Knulli) makes them opaque. -->
+      <carousel name="systemcarousel">
+         <type>horizontal</type>
+         <logoAlignment>bottom</logoAlignment>
+         <zIndex>40</zIndex>
+         <color>00000000</color>
+         <logoScale>1.5</logoScale>
+         <minLogoOpacity>1</minLogoOpacity>
+         <unselectedOpacity>1</unselectedOpacity>
+         <defaultTransition>instant</defaultTransition>
+         <scrollSound>./_inc/sounds/systembrowse.wav</scrollSound>
+      </carousel>
+      <image name="logo">
+         <path>${iconsPath}/${system.theme}.png</path>
+      </image>
+      <text name="logoText">
+         <fontPath>${fontMedium}</fontPath>
+         <fontSize>0.035</fontSize>
+         <color>${white}</color>
+         <forceUppercase>false</forceUppercase>
+      </text>
+      <image name="e_t1_icon" extra="true">
+         <path>./_inc/images/icon-library.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="systemInfo">
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>50</zIndex>
+      </text>
+      <image name="e_system_logo" extra="true">
+         <path>${logosPath}/${system.theme}.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <image name="e_t3_icon" extra="true">
+         <path>${emblemsPath}/${system.theme}.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="e_t3_label" extra="true">
+         <text>${system.fullName}</text>
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>50</zIndex>
+      </text>
+      <image name="e_t4_icon" extra="true">
+         <path>./_inc/images/icon-gamepad.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="e_t4_label" extra="true">
+         <text>${helpMenu}</text>
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>50</zIndex>
+      </text>
+   </view>
+
+   <view name="grid">
+      <image name="bg_image" extra="true">
+         <path>${wallpaperPath}</path>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>${systemBackgroundTint}</color>
+         <zIndex>0</zIndex>
+      </image>
+      <!-- the game's own art is the backdrop: OPAQUE (the dimming is a grey tint, not transparency, or the wallpaper video plays through it) -->
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <minSize>1 1</minSize>
+         <color>cccccc</color>
+         <zIndex>5</zIndex>
+      </image>
+      <!-- the row of tiles: the selected game is the first of the row and EXPANDS (autoLayoutSelectedZoom), like the PS5 theme's grid; the cells before it
+           are outside the box and cut (a negative left padding of the grid, see aspect-ratio-4-3.xml) -->
+      <imagegrid name="gamegrid">
+         <scrollDirection>horizontalCenter</scrollDirection>
+         <imageSource>marquee</imageSource>
+         <gameImage>./_inc/images/default_game.png</gameImage>
+         <folderImage>./_inc/images/default_game.png</folderImage>
+         <autoLayoutSelectedZoom>1.5</autoLayoutSelectedZoom>
+         <animateSelection>false</animateSelection>
+         <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
+         <zIndex>40</zIndex>
+      </imagegrid>
+      <!-- every small tile: a dark rounded plate (9-patch, the corners live in the png: this ES ignores roundCorners) with the game's marquee fitted inside -->
+      <gridtile name="default">
+         <selectionMode>image</selectionMode>
+         <imageSizeMode>fit</imageSizeMode>
+         <backgroundImage>./_inc/images/tile-plate.png</backgroundImage>
+         <backgroundCornerSize>8 8</backgroundCornerSize>
+         <backgroundColor>${plateColor}</backgroundColor>
+      </gridtile>
+      <gridtile name="selected">
+         <selectionMode>image</selectionMode>
+         <imageSizeMode>fit</imageSizeMode>
+         <backgroundImage>./_inc/images/tile-plate.png</backgroundImage>
+         <backgroundCornerSize>8 8</backgroundCornerSize>
+         <backgroundColor>${plateColor}</backgroundColor>
+      </gridtile>
+      <!-- no size key on purpose: any size key sets the size mode and breaks the plate (the art fills the padded box, aspect kept) -->
+      <image name="gridtile.image">
+         <pos>0.5 0.5</pos>
+         <origin>0.5 0.5</origin>
+      </image>
+      <text name="gridtile">
+         <visible>false</visible>
+         <singleLineScroll>false</singleLineScroll>
+      </text>
+      <!-- the game's name, over the foot of the selected tile: the marquees are not always scraped, so the name is the only way to tell the games apart.
+           (The system screen has no name on its tile: there the tile is the system's own art.) -->
+      <text name="md_name">
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <singleLineScroll>true</singleLineScroll>
+         <zIndex>45</zIndex>
+      </text>
+      <image name="e_t1_icon" extra="true">
+         <path>./_inc/images/icon-players.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="md_players">
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>50</zIndex>
+      </text>
+      <image name="e_t2_icon" extra="true">
+         <path>./_inc/images/icon-studio.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="md_developer">
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>50</zIndex>
+      </text>
+      <image name="e_t3_icon" extra="true">
+         <path>./_inc/images/icon-gamepad.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="md_genre">
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>50</zIndex>
+      </text>
+      <image name="e_t4_icon" extra="true">
+         <path>./_inc/images/icon-playcount.png</path>
+         <origin>0.5 0.5</origin>
+         <zIndex>50</zIndex>
+      </image>
+      <text name="md_playcount">
+         <fontPath>${fontMedium}</fontPath>
+         <color>${white}</color>
+         <alignment>left</alignment>
+         <verticalAlignment>bottom</verticalAlignment>
+         <forceUppercase>false</forceUppercase>
+         <zIndex>50</zIndex>
+      </text>
+   </view>
+
+   <include subset="aspect-ratio" name="4-3">./aspect-ratio-4-3.xml</include>
+</theme>

@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="vi">
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>CHỌN</helpSelect>
+      <aspectRatioLabel>Tỷ lệ khung hình</aspectRatioLabel>
+      <wallpaperLabel>Hình nền</wallpaperLabel>
+      <videoLabel>Video nền</videoLabel>
+      <enabledLabel>Bật</enabledLabel>
+      <disabledLabel>Tắt</disabledLabel>
+      <colorSchemeLabel>Giao diện màu</colorSchemeLabel>
+      <darkLabel>Tối</darkLabel>
+      <lightLabel>Sáng</lightLabel>
+      <buttonIconsLabel>Biểu tượng nút</buttonIconsLabel>
+      <confirmButtonLabel>Nút xác nhận (A/B)</confirmButtonLabel>
+      <footerLabel>Chú thích nút</footerLabel>
+   </variables>
+</theme>

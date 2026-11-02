@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="de">
+      <helpMenu>MENÜ</helpMenu>
+      <helpSelect>AUSWÄHLEN</helpSelect>
+      <aspectRatioLabel>Seitenverhältnis</aspectRatioLabel>
+      <wallpaperLabel>Hintergrundbild</wallpaperLabel>
+      <videoLabel>Hintergrundvideo</videoLabel>
+      <enabledLabel>Aktiviert</enabledLabel>
+      <disabledLabel>Deaktiviert</disabledLabel>
+      <colorSchemeLabel>Farbschema</colorSchemeLabel>
+      <darkLabel>Dunkel</darkLabel>
+      <lightLabel>Hell</lightLabel>
+      <buttonIconsLabel>Tastensymbole</buttonIconsLabel>
+      <confirmButtonLabel>Bestätigungstaste (A/B)</confirmButtonLabel>
+      <footerLabel>Tastenlegende</footerLabel>
+   </variables>
+</theme>

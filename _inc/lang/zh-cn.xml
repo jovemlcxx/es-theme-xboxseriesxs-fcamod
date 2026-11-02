@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="zh-cn,zh">
+      <helpMenu>菜单</helpMenu>
+      <helpSelect>选择</helpSelect>
+      <aspectRatioLabel>屏幕比例</aspectRatioLabel>
+      <wallpaperLabel>壁纸</wallpaperLabel>
+      <videoLabel>背景视频</videoLabel>
+      <enabledLabel>已启用</enabledLabel>
+      <disabledLabel>已禁用</disabledLabel>
+      <colorSchemeLabel>配色方案</colorSchemeLabel>
+      <darkLabel>深色</darkLabel>
+      <lightLabel>浅色</lightLabel>
+      <buttonIconsLabel>按钮图标</buttonIconsLabel>
+      <confirmButtonLabel>确认按钮 (A/B)</confirmButtonLabel>
+      <footerLabel>按键提示</footerLabel>
+   </variables>
+</theme>

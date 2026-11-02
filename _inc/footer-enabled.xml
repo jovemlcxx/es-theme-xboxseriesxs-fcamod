@@ -1,0 +1,47 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <!-- Button legend ON (the "footer" subset in theme.xml): START menu on the left, the confirm button on the right. Same geometry as the XMB theme's
+        footer (4:3), moved in to the 23 px screen margin and up to y 0.895 (the bottom row of tiles ends at 0.879): icons and texts share one band, so they line up; built by hand because the native legend does not fit the screen
+        in most languages. -->
+   <view name="system, grid">
+      <image name="e_help_start_icon" extra="true">
+         <path>./_inc/images/buttons/${buttonStyle}/start.svg</path>
+         <pos>0.0359 0.895</pos>
+         <maxSize>0.045 0.06</maxSize>
+         <origin>0 0</origin>
+         <color>ffffffcc</color>
+         <zIndex>90</zIndex>
+      </image>
+      <text name="e_help_start_text" extra="true">
+         <text>${helpMenu}</text>
+         <pos>0.088 0.895</pos>
+         <size>0.20 0.06</size>
+         <fontSize>0.035</fontSize>
+         <color>ffffffcc</color>
+         <fontPath>${fontMedium}</fontPath>
+         <alignment>left</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <zIndex>90</zIndex>
+      </text>
+      <image name="e_help_a_icon" extra="true">
+         <path>./_inc/images/buttons/${buttonStyle}/${confirmButton}.svg</path>
+         <pos>0.9641 0.895</pos>
+         <maxSize>0.045 0.06</maxSize>
+         <origin>1 0</origin>
+         <color>ffffffcc</color>
+         <zIndex>90</zIndex>
+      </image>
+      <text name="e_help_a_text" extra="true">
+         <text>${helpSelect}</text>
+         <pos>0.9110 0.895</pos>
+         <size>0.42 0.06</size>
+         <fontSize>0.035</fontSize>
+         <color>ffffffcc</color>
+         <fontPath>${fontMedium}</fontPath>
+         <alignment>right</alignment>
+         <verticalAlignment>center</verticalAlignment>
+         <origin>1 0</origin>
+         <zIndex>90</zIndex>
+      </text>
+   </view>
+</theme>

@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="fr">
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>SÉLECTIONNER</helpSelect>
+      <aspectRatioLabel>Format d'Image</aspectRatioLabel>
+      <wallpaperLabel>Fond d'Écran</wallpaperLabel>
+      <videoLabel>Vidéo de Fond</videoLabel>
+      <enabledLabel>Activé</enabledLabel>
+      <disabledLabel>Désactivé</disabledLabel>
+      <colorSchemeLabel>Schéma de Couleur</colorSchemeLabel>
+      <darkLabel>Sombre</darkLabel>
+      <lightLabel>Clair</lightLabel>
+      <buttonIconsLabel>Icônes des boutons</buttonIconsLabel>
+      <confirmButtonLabel>Bouton de confirmation (A/B)</confirmButtonLabel>
+      <footerLabel>Légende des boutons</footerLabel>
+   </variables>
+</theme>

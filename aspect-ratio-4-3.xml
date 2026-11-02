@@ -1,0 +1,200 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <!-- 4:3 (640x480). Laid out in pixels, written as fractions of the screen (/640, /480). Nothing touches the screen edges: 23 px margin
+        left, right and top (the Xbox home keeps ~5%), the bottom band is left to the optional button legend.
+          top bar       centre line y 43: profile (photo 40 px), 4 icons, battery (62 px of icon + %), clock (right edge x 617): the battery ends 12 px
+                        before the widest clock text ("12:26 AM", 69 px) so the two read as one group in 12 h and 24 h
+          the row       tiles of 72 x 72, the selected one expands x1.5 (108 x 108) from a fixed bottom edge (y 306), growing to both sides and UP, as on
+                        the Xbox (the PS5 theme's grows down). Selected: x 23..131, y 198..306; the others: y 234..306 (everything below the top bar sits 22 px higher than the first layout, clear of the footer legend). For the zoomed tile not to cover its neighbour the pitch is 100.8 (centre x 77 + 100.8 k):
+                        the 5 tiles after it span x 141.8 .. 617 (= 640 - 23); the previous one shows as a sliver at the left edge.
+          bottom row    4 tiles 142.5 x 86, gap 8, from x 23 to 617, y 314 .. 400
+        The row's box is wider than the screen on both sides, so the row is cut by the screen's edge only. -->
+   <view name="screen">
+      <batteryIndicator name="batteryIndicator">
+         <pos>0.7234 0.0596</pos>
+         <size>0.1 0.06</size>
+      </batteryIndicator>
+      <text name="clock">
+         <pos>0.7741 0.0596</pos>
+         <size>0.19 0.06</size>
+         <fontSize>0.034</fontSize>
+         <alignment>right</alignment>
+      </text>
+   </view>
+   <view name="system, grid">
+      <helpsystem name="help">
+         <pos>0.04 0.93</pos>
+         <fontSize>0.027</fontSize>
+      </helpsystem>
+      <image name="e_avatar" extra="true">
+         <pos>0.0359 0.0479</pos>
+         <size>0.0625 0.0833</size>
+      </image>
+      <text name="e_profile_name" extra="true">
+         <pos>0.1109 0.0471</pos>
+         <size>0.14 0.0417</size>
+         <fontSize>0.026</fontSize>
+      </text>
+      <image name="e_profile_badge" extra="true">
+         <pos>0.2310 0.0554</pos>
+         <size>0.075 0.027</size>
+      </image>
+      <image name="e_profile_g" extra="true">
+         <pos>0.1109 0.0992</pos>
+         <size>0.021875 0.0292</size>
+      </image>
+      <text name="e_profile_score" extra="true">
+         <pos>0.1391 0.0929</pos>
+         <size>0.12 0.0417</size>
+         <fontSize>0.024</fontSize>
+      </text>
+      <image name="e_ic_library" extra="true">
+         <pos>0.3625 0.0625</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <image name="e_ic_apps" extra="true">
+         <pos>0.4406 0.0625</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <image name="e_ic_search" extra="true">
+         <pos>0.5188 0.0625</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <image name="e_ic_settings" extra="true">
+         <pos>0.5969 0.0625</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <image name="e_dim" extra="true">
+         <pos>0 0</pos>
+         <size>1 1</size>
+      </image>
+            <!-- the four tiles of the bottom row -->
+      <image name="e_t1_plate" extra="true">
+         <pos>0.0359 0.6542</pos>
+         <size>0.222656 0.179167</size>
+      </image>
+      <image name="e_t2_plate" extra="true">
+         <pos>0.2711 0.6542</pos>
+         <size>0.222656 0.179167</size>
+      </image>
+      <image name="e_t3_plate" extra="true">
+         <pos>0.50625 0.6542</pos>
+         <size>0.222656 0.179167</size>
+      </image>
+      <image name="e_t4_plate" extra="true">
+         <pos>0.7414 0.6542</pos>
+         <size>0.222656 0.179167</size>
+      </image>
+   </view>
+
+   <view name="system">
+      <!-- The box is wider than the screen on both sides (x -200 .. 1010), so the row is cut by the screen's edge, never by the box in the middle of
+           the screen: 12 slots of 100.8 = 1209.6. logoPos puts the selected item's left edge (unscaled) at x 41 (= 241 from the box's left edge) and its top at
+           y 256 (36 below the box's top); the box is as tall as the zoomed tile (108, y 220..328), and the items grow up from their bottom edge. -->
+      <carousel name="systemcarousel">
+         <pos>-0.3125 0.4125</pos>
+         <size>1.89 0.225</size>
+         <logoSize>0.1125 0.15</logoSize>
+         <logoPos>0.3766 0.075</logoPos>
+         <maxLogoCount>12</maxLogoCount>
+         <origin>0 0</origin>
+      </carousel>
+      <image name="e_t1_icon" extra="true">
+         <pos>0.1473 0.7017</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <text name="systemInfo">
+         <pos>0.0516 0.7292</pos>
+         <size>0.19 0.095</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <image name="e_system_logo" extra="true">
+         <pos>0.3824 0.7438</pos>
+         <maxSize>0.19 0.12</maxSize>
+      </image>
+      <image name="e_t3_icon" extra="true">
+         <pos>0.6176 0.7017</pos>
+         <size>0.04 0.0533</size>
+      </image>
+      <text name="e_t3_label" extra="true">
+         <pos>0.5219 0.7292</pos>
+         <size>0.19 0.095</size>
+         <fontSize>0.02</fontSize>
+      </text>
+      <image name="e_t4_icon" extra="true">
+         <pos>0.8527 0.7017</pos>
+         <size>0.05 0.0542</size>
+      </image>
+      <text name="e_t4_label" extra="true">
+         <pos>0.7570 0.7292</pos>
+         <size>0.19 0.095</size>
+         <fontSize>0.023</fontSize>
+      </text>
+   </view>
+
+   <view name="grid">
+      <!-- 13 cells of 72 x 83.2 px, pitch 100.8 (margin 28.8), in a box wider than the screen on both sides (x -200 .. 718), so the row is cut by the screen's
+           edge. The centre cell (the 7th) is the selected game: a left padding of -363.8 px puts it at x 41..113 (as in the system view); the cell width stays
+           72: (917.8 - 12 x 28.8 + 363.8) / 13. Cell row: y 240.8..324 (box y 214..334).
+           How the selected tile grows UP: it expands x1.5 around its centre (tile 108 x 124.8), and ES draws the plate of a tile as its
+           image box grown by the SELECTED padding's left / top (4). The unselected plate is 72 x 72 and ends 87.2 px below the cell's top (padding 4 19.2 4 0);
+           the selected padding (4 4 4 20.8) makes its plate 108 x 108 and ends it at that same line (y 306), so it grows up and to both sides, like the
+           carousel. The cell is taller than wide (83.2) so that the bottom padding stays positive (ES ignores a negative one). -->
+      <imagegrid name="gamegrid">
+         <pos>-0.3125 0.4000</pos>
+         <size>1.4341 0.25</size>
+         <autoLayout>13 1</autoLayout>
+         <margin>0.045 0</margin>
+         <padding>-0.5684 0.05583 0 0.02083</padding>
+      </imagegrid>
+      <gridtile name="default">
+         <size>0.1125 0.17333</size>
+         <padding>4 19.2 4 0</padding>
+      </gridtile>
+      <gridtile name="selected">
+         <size>0.1125 0.17333</size>
+         <padding>4 4 4 20.8</padding>
+      </gridtile>
+      <text name="md_name">
+         <pos>0.0453 0.5875</pos>
+         <size>0.15 0.05</size>
+         <fontSize>0.02</fontSize>
+      </text>
+      <image name="e_t1_icon" extra="true">
+         <pos>0.1473 0.7017</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <text name="md_players">
+         <pos>0.0516 0.7292</pos>
+         <size>0.19 0.095</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <image name="e_t2_icon" extra="true">
+         <pos>0.3824 0.7017</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <text name="md_developer">
+         <pos>0.2867 0.7292</pos>
+         <size>0.19 0.095</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <image name="e_t3_icon" extra="true">
+         <pos>0.6176 0.7017</pos>
+         <size>0.05 0.0542</size>
+      </image>
+      <text name="md_genre">
+         <pos>0.5219 0.7292</pos>
+         <size>0.19 0.095</size>
+         <fontSize>0.023</fontSize>
+      </text>
+      <image name="e_t4_icon" extra="true">
+         <pos>0.8527 0.7017</pos>
+         <size>0.040625 0.054167</size>
+      </image>
+      <text name="md_playcount">
+         <pos>0.7570 0.7292</pos>
+         <size>0.19 0.095</size>
+         <fontSize>0.023</fontSize>
+      </text>
+   </view>
+</theme>

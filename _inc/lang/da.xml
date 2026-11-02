@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="da">
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>VÆLG</helpSelect>
+      <aspectRatioLabel>Billedformat</aspectRatioLabel>
+      <wallpaperLabel>Baggrundsbillede</wallpaperLabel>
+      <videoLabel>Baggrundsvideo</videoLabel>
+      <enabledLabel>Aktiveret</enabledLabel>
+      <disabledLabel>Deaktiveret</disabledLabel>
+      <colorSchemeLabel>Farveskema</colorSchemeLabel>
+      <darkLabel>Mørk</darkLabel>
+      <lightLabel>Lys</lightLabel>
+      <buttonIconsLabel>Knapikoner</buttonIconsLabel>
+      <confirmButtonLabel>Bekræftelsesknap (A/B)</confirmButtonLabel>
+      <footerLabel>Knapforklaring</footerLabel>
+   </variables>
+</theme>

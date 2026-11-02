@@ -1,0 +1,5 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <!-- Background video OFF: intentionally defines no video element (the system view keeps its static wallpaper image and the game list its
+        bg_image). Do not "override" the enabled video instead: visible=false keeps decoding and a changed path still left it playing in the game list. -->
+</theme>

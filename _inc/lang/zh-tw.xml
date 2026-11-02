@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="zh-tw">
+      <helpMenu>菜單</helpMenu>
+      <helpSelect>選擇</helpSelect>
+      <aspectRatioLabel>螢幕比例</aspectRatioLabel>
+      <wallpaperLabel>桌布</wallpaperLabel>
+      <videoLabel>背景視頻</videoLabel>
+      <enabledLabel>已啟用</enabledLabel>
+      <disabledLabel>已禁用</disabledLabel>
+      <colorSchemeLabel>配色方案</colorSchemeLabel>
+      <darkLabel>深色</darkLabel>
+      <lightLabel>淺色</lightLabel>
+      <buttonIconsLabel>按鈕圖示</buttonIconsLabel>
+      <confirmButtonLabel>確認按鈕 (A/B)</confirmButtonLabel>
+      <footerLabel>按鍵提示</footerLabel>
+   </variables>
+</theme>

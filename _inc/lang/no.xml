@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="no,nb">
+      <helpMenu>MENY</helpMenu>
+      <helpSelect>VELG</helpSelect>
+      <aspectRatioLabel>Bildeformat</aspectRatioLabel>
+      <wallpaperLabel>Bakgrunn</wallpaperLabel>
+      <videoLabel>Bakgrunnsvideo</videoLabel>
+      <enabledLabel>Aktivert</enabledLabel>
+      <disabledLabel>Deaktivert</disabledLabel>
+      <colorSchemeLabel>Fargeskjema</colorSchemeLabel>
+      <darkLabel>Mørk</darkLabel>
+      <lightLabel>Lys</lightLabel>
+      <buttonIconsLabel>Knappeikoner</buttonIconsLabel>
+      <confirmButtonLabel>Bekreftelsesknapp (A/B)</confirmButtonLabel>
+      <footerLabel>Knappeforklaring</footerLabel>
+   </variables>
+</theme>

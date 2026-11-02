@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="fi">
+      <helpMenu>VALIKKO</helpMenu>
+      <helpSelect>VALITSE</helpSelect>
+      <aspectRatioLabel>Kuvasuhde</aspectRatioLabel>
+      <wallpaperLabel>Taustakuva</wallpaperLabel>
+      <videoLabel>Taustavideo</videoLabel>
+      <enabledLabel>Käytössä</enabledLabel>
+      <disabledLabel>Ei käytössä</disabledLabel>
+      <colorSchemeLabel>Väriteema</colorSchemeLabel>
+      <darkLabel>Tumma</darkLabel>
+      <lightLabel>Vaalea</lightLabel>
+      <buttonIconsLabel>Painikekuvakkeet</buttonIconsLabel>
+      <confirmButtonLabel>Vahvistuspainike (A/B)</confirmButtonLabel>
+      <footerLabel>Painikeohjeet</footerLabel>
+   </variables>
+</theme>

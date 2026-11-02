@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="ca">
+      <helpMenu>MENÚ</helpMenu>
+      <helpSelect>SELECCIONA</helpSelect>
+      <aspectRatioLabel>Relació d'aspecte</aspectRatioLabel>
+      <wallpaperLabel>Fons de pantalla</wallpaperLabel>
+      <videoLabel>Vídeo de fons</videoLabel>
+      <enabledLabel>Activat</enabledLabel>
+      <disabledLabel>Desactivat</disabledLabel>
+      <colorSchemeLabel>Esquema de colors</colorSchemeLabel>
+      <darkLabel>Fosc</darkLabel>
+      <lightLabel>Clar</lightLabel>
+      <buttonIconsLabel>Icones dels botons</buttonIconsLabel>
+      <confirmButtonLabel>Botó de confirmació (A/B)</confirmButtonLabel>
+      <footerLabel>Llegenda dels botons</footerLabel>
+   </variables>
+</theme>

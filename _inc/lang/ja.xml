@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="ja">
+      <helpMenu>メニュー</helpMenu>
+      <helpSelect>決定</helpSelect>
+      <aspectRatioLabel>アスペクト比</aspectRatioLabel>
+      <wallpaperLabel>壁紙</wallpaperLabel>
+      <videoLabel>背景ビデオ</videoLabel>
+      <enabledLabel>有効</enabledLabel>
+      <disabledLabel>無効</disabledLabel>
+      <colorSchemeLabel>カラースキーム</colorSchemeLabel>
+      <darkLabel>ダーク</darkLabel>
+      <lightLabel>ライト</lightLabel>
+      <buttonIconsLabel>ボタンアイコン</buttonIconsLabel>
+      <confirmButtonLabel>決定ボタン (A/B)</confirmButtonLabel>
+      <footerLabel>ボタンガイド</footerLabel>
+   </variables>
+</theme>

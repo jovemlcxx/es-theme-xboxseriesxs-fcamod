@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="id">
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>PILIH</helpSelect>
+      <aspectRatioLabel>Rasio Aspek</aspectRatioLabel>
+      <wallpaperLabel>Wallpaper</wallpaperLabel>
+      <videoLabel>Video Latar Belakang</videoLabel>
+      <enabledLabel>Aktif</enabledLabel>
+      <disabledLabel>Nonaktif</disabledLabel>
+      <colorSchemeLabel>Skema Warna</colorSchemeLabel>
+      <darkLabel>Gelap</darkLabel>
+      <lightLabel>Terang</lightLabel>
+      <buttonIconsLabel>Ikon Tombol</buttonIconsLabel>
+      <confirmButtonLabel>Tombol Konfirmasi (A/B)</confirmButtonLabel>
+      <footerLabel>Keterangan Tombol</footerLabel>
+   </variables>
+</theme>

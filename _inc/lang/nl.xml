@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="nl">
+      <helpMenu>MENU</helpMenu>
+      <helpSelect>SELECTEER</helpSelect>
+      <aspectRatioLabel>Beeldverhouding</aspectRatioLabel>
+      <wallpaperLabel>Achtergrond</wallpaperLabel>
+      <videoLabel>Achtergrondvideo</videoLabel>
+      <enabledLabel>Ingeschakeld</enabledLabel>
+      <disabledLabel>Uitgeschakeld</disabledLabel>
+      <colorSchemeLabel>Kleurenschema</colorSchemeLabel>
+      <darkLabel>Donker</darkLabel>
+      <lightLabel>Licht</lightLabel>
+      <buttonIconsLabel>Knoppictogrammen</buttonIconsLabel>
+      <confirmButtonLabel>Bevestigingsknop (A/B)</confirmButtonLabel>
+      <footerLabel>Knoppenlegenda</footerLabel>
+   </variables>
+</theme>

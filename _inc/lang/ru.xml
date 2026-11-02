@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="ru">
+      <helpMenu>МЕНЮ</helpMenu>
+      <helpSelect>ВЫБРАТЬ</helpSelect>
+      <aspectRatioLabel>Соотношение сторон</aspectRatioLabel>
+      <wallpaperLabel>Обои</wallpaperLabel>
+      <videoLabel>Фоновое видео</videoLabel>
+      <enabledLabel>Включено</enabledLabel>
+      <disabledLabel>Отключено</disabledLabel>
+      <colorSchemeLabel>Цветовая схема</colorSchemeLabel>
+      <darkLabel>Тёмная</darkLabel>
+      <lightLabel>Светлая</lightLabel>
+      <buttonIconsLabel>Значки кнопок</buttonIconsLabel>
+      <confirmButtonLabel>Кнопка подтверждения (A/B)</confirmButtonLabel>
+      <footerLabel>Подсказки кнопок</footerLabel>
+   </variables>
+</theme>

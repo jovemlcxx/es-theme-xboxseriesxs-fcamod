@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="ro">
+      <helpMenu>MENIU</helpMenu>
+      <helpSelect>SELECTARE</helpSelect>
+      <aspectRatioLabel>Raport aspect</aspectRatioLabel>
+      <wallpaperLabel>Tapet</wallpaperLabel>
+      <videoLabel>Video fundal</videoLabel>
+      <enabledLabel>Activat</enabledLabel>
+      <disabledLabel>Dezactivat</disabledLabel>
+      <colorSchemeLabel>Schemă de culori</colorSchemeLabel>
+      <darkLabel>Întunecat</darkLabel>
+      <lightLabel>Deschis</lightLabel>
+      <buttonIconsLabel>Pictograme butoane</buttonIconsLabel>
+      <confirmButtonLabel>Buton de confirmare (A/B)</confirmButtonLabel>
+      <footerLabel>Legendă butoane</footerLabel>
+   </variables>
+</theme>

@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="el">
+      <helpMenu>ΜΕΝΟΥ</helpMenu>
+      <helpSelect>ΕΠΙΛΟΓΗ</helpSelect>
+      <aspectRatioLabel>Αναλογία Εικόνας</aspectRatioLabel>
+      <wallpaperLabel>Ταπετσαρία</wallpaperLabel>
+      <videoLabel>Βίντεο Φόντου</videoLabel>
+      <enabledLabel>Ενεργοποιημένο</enabledLabel>
+      <disabledLabel>Απενεργοποιημένο</disabledLabel>
+      <colorSchemeLabel>Χρωματικό Σχήμα</colorSchemeLabel>
+      <darkLabel>Σκοτεινό</darkLabel>
+      <lightLabel>Φωτεινό</lightLabel>
+      <buttonIconsLabel>Εικονίδια κουμπιών</buttonIconsLabel>
+      <confirmButtonLabel>Κουμπί επιβεβαίωσης (A/B)</confirmButtonLabel>
+      <footerLabel>Υπόμνημα κουμπιών</footerLabel>
+   </variables>
+</theme>

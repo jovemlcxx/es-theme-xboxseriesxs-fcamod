@@ -1,0 +1,18 @@
+<theme>
+   <formatVersion>7</formatVersion>
+   <variables lang="sv">
+      <helpMenu>MENY</helpMenu>
+      <helpSelect>VÄLJ</helpSelect>
+      <aspectRatioLabel>Bildförhållande</aspectRatioLabel>
+      <wallpaperLabel>Bakgrundsbild</wallpaperLabel>
+      <videoLabel>Bakgrundsvideo</videoLabel>
+      <enabledLabel>Aktiverad</enabledLabel>
+      <disabledLabel>Inaktiverad</disabledLabel>
+      <colorSchemeLabel>Färgschema</colorSchemeLabel>
+      <darkLabel>Mörkt</darkLabel>
+      <lightLabel>Ljust</lightLabel>
+      <buttonIconsLabel>Knappikoner</buttonIconsLabel>
+      <confirmButtonLabel>Bekräftelseknapp (A/B)</confirmButtonLabel>
+      <footerLabel>Knappförklaring</footerLabel>
+   </variables>
+</theme>

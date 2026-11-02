@@ -260,12 +260,6 @@
          <path>./_inc/images/icon-settings.png</path>
          <zIndex>60</zIndex>
       </image>
-      <image name="e_dim" extra="true">
-         <path>./_inc/images/overlay-dim.png</path>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>6</zIndex>
-      </image>
       <image name="e_t1_plate" extra="true">
          <path>./_inc/images/plate-teal.png</path>
          <zIndex>42</zIndex>
@@ -294,6 +288,9 @@
          <color>${systemBackgroundTint}</color>
          <zIndex>0</zIndex>
       </image>
+      <!-- The bottom dimming of this screen is the carousel's own background (a tall box with a vertical gradient, see aspect-ratio-4-3.xml): ES draws
+           the static background VIDEO after every extra below the carousel, so an image extra (as on the game list) would be hidden by the video; the
+           carousel box is the one thing drawn after the video and before the tiles. -->
       <!-- The tiles of the row are the carousel's own items, and the selected one EXPANDS (logoScale), like the PS5 theme's carousel, growing to both sides and
            UP from a fixed bottom edge, as on the Xbox (the PS5 theme's grows down). The selected system is the first of the row (logoPos puts it at the left edge of the box; the items before it fall
            outside the box and are cut). The pitch is wide enough for the zoomed tile not to cover its neighbour (see aspect-ratio-4-3.xml).
@@ -302,7 +299,8 @@
          <type>horizontal</type>
          <logoAlignment>bottom</logoAlignment>
          <zIndex>40</zIndex>
-         <color>00000000</color>
+         <color>0a101200</color>
+         <colorEnd>0a1012eb</colorEnd>
          <logoScale>1.5</logoScale>
          <minLogoOpacity>1</minLogoOpacity>
          <unselectedOpacity>1</unselectedOpacity>
@@ -381,6 +379,12 @@
          <minSize>1 1</minSize>
          <color>cccccc</color>
          <zIndex>5</zIndex>
+      </image>
+      <image name="e_dim" extra="true">
+         <path>./_inc/images/overlay-dim.png</path>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>6</zIndex>
       </image>
       <!-- the row of tiles: the selected game is the first of the row and EXPANDS (autoLayoutSelectedZoom), like the PS5 theme's grid; the cells before it
            are outside the box and cut (a negative left padding of the grid, see aspect-ratio-4-3.xml) -->

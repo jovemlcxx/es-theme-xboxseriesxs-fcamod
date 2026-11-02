@@ -64,11 +64,7 @@
          <pos>0.5969 0.0625</pos>
          <size>0.040625 0.054167</size>
       </image>
-      <image name="e_dim" extra="true">
-         <pos>0 0</pos>
-         <size>1 1</size>
-      </image>
-            <!-- the four tiles of the bottom row -->
+      <!-- the four tiles of the bottom row -->
       <image name="e_t1_plate" extra="true">
          <pos>0.0359 0.6542</pos>
          <size>0.222656 0.179167</size>
@@ -88,14 +84,15 @@
    </view>
 
    <view name="system">
-      <!-- The box is wider than the screen on both sides (x -200 .. 1010), so the row is cut by the screen's edge, never by the box in the middle of
+      <!-- The box is also the screen's bottom dimming (gradient of the carousel background, see theme.xml): it runs from y 144 to the bottom of the screen;
+           logoPos y 90 keeps the tiles where they were (tile top y 234 = 144 + 90). The box is wider than the screen on both sides (x -200 .. 1010), so the row is cut by the screen's edge, never by the box in the middle of
            the screen: 12 slots of 100.8 = 1209.6. logoPos puts the selected item's left edge (unscaled) at x 41 (= 241 from the box's left edge) and its top at
            y 256 (36 below the box's top); the box is as tall as the zoomed tile (108, y 220..328), and the items grow up from their bottom edge. -->
       <carousel name="systemcarousel">
-         <pos>-0.3125 0.4125</pos>
-         <size>1.89 0.225</size>
+         <pos>-0.3125 0.3</pos>
+         <size>1.89 0.7</size>
          <logoSize>0.1125 0.15</logoSize>
-         <logoPos>0.3766 0.075</logoPos>
+         <logoPos>0.3766 0.1875</logoPos>
          <maxLogoCount>12</maxLogoCount>
          <origin>0 0</origin>
       </carousel>
@@ -140,6 +137,10 @@
            image box grown by the SELECTED padding's left / top (4). The unselected plate is 72 x 72 and ends 87.2 px below the cell's top (padding 4 19.2 4 0);
            the selected padding (4 4 4 20.8) makes its plate 108 x 108 and ends it at that same line (y 306), so it grows up and to both sides, like the
            carousel. The cell is taller than wide (83.2) so that the bottom padding stays positive (ES ignores a negative one). -->
+      <image name="e_dim" extra="true">
+         <pos>0 0</pos>
+         <size>1 1</size>
+      </image>
       <imagegrid name="gamegrid">
          <pos>-0.3125 0.4000</pos>
          <size>1.4341 0.25</size>
